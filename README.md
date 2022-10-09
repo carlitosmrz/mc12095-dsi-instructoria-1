@@ -1,12 +1,16 @@
 # mc12095-dsi-instructoria-1
 Instalar dependencias
+
 Ejecute el siguiente comando adentro de cada carpeta en una consola para instalar todas las dependencias
 
 npm install
+
 En el caso que no se instale types/node
+
 Ejecute el siguiente comando una consola
 
 npm i -D @types/node
+
 Comandos disponibles
 cat
 echo
