@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var fs = require("fs");
+var origen = process.argv[2];
+var destino = process.argv[3];
+var ArchivoOrigen = origen;
+var ArchivoDestino = destino;
+var argu = '';
+var data = fs.readFileSync(ArchivoOrigen, 'utf-8');
+argu = data;
+fs.writeFileSync(ArchivoDestino, data);

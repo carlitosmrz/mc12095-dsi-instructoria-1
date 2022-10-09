@@ -1,0 +1,19 @@
+{
+  "name": "instructoria3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cp.js",
+  "scripts": {
+    "precat": "tsc cp.ts",
+    "cp": "node ./cp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.8.3"
+  }
+}
